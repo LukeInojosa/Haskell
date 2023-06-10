@@ -5,4 +5,3 @@ foo n
   | n < 0             = 0
   | n `mod` 17 == 2   = -43
   | otherwise         = n +3
-
