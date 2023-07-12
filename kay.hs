@@ -19,7 +19,7 @@ splitInStrings (c : cs)
   | otherwise = (c : head rest) : tail rest
   where
     rest = splitInStrings cs
-
+    
 main = do
   a <- getLine
   b <- getLine
